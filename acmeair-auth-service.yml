@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: cloud
+  profiles: cloudify
 
 server:
   port: 8080
