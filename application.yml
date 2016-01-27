@@ -13,8 +13,6 @@ spring:
   profiles: cloudify
 
 eureka:
-  instance:
-    hostname: acmeair-auth-service
   client:
     registerWithEureka: true
     fetchRegistry: true
