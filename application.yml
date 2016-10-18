@@ -27,3 +27,14 @@ eureka:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
 
+---
+spring:
+  profiles: kube
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
+
