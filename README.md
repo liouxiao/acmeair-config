@@ -2,4 +2,6 @@
 
 `default` profile for localhost environment;
 
-`cloud` profile for internal VM environment.
+`cloudify` profile for internal VM environment;
+
+`kube` profile for internal Kubernetes environment.
